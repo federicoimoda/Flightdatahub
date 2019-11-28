@@ -1,0 +1,129 @@
+{
+    "name": "Flight",
+    "properties": {
+        "YEAR": {
+            "type": "string",
+            "required": false
+          },
+        "MONTH": {
+            "type": "string",
+            "required": false
+          },
+        "DAY": {
+            "type": "string",
+            "required": false
+          },
+        "DAY_OF_WEEK": {
+            "type": "string",
+            "required": false
+          },
+        "AIRLINE": {
+            "type": "string",
+            "required": false
+          },
+        "FLIGHT_NUMBER": {
+            "type": "string",
+            "required": false
+          },
+        "TAIL_NUMBER": {
+            "type": "string",
+            "required": false
+          },
+        "ORIGIN_AIRPORT": {
+            "type": "string",
+            "required": false
+          },
+        "DESTINATION_AIRPORT": {
+            "type": "string",
+            "required": false
+          },
+        "SCHEDULED_DEPARTURE": {
+            "type": "string",
+            "required": false
+          },
+        "DEPARTURE_TIME": {
+            "type": "string",
+            "required": false
+          },
+        "DEPARTURE_DELAY": {
+            "type": "string",
+            "required": false
+          },
+        "TAXI_OUT": {
+            "type": "string",
+            "required": false
+          },
+        "WHEELS_OFF": {
+          "type": "string",
+          "required": false
+        },
+        "SCHEDULED_TIME": {
+            "type": "string",
+            "required": false
+          },
+        "ELAPSED_TIME": {
+            "type": "string",
+            "required": false
+          },
+        "AIR_TIME": {
+            "type": "string",
+            "required": false
+          },
+        "DISTANCE": {
+            "type": "string",
+            "required": false
+          },
+        "WHEELS_ON": {
+          "type": "string",
+          "required": false
+        },
+        "TAXI_IN": {
+            "type": "string",
+            "required": false
+          },
+        "SCHEDULED_ARRIVAL": {
+            "type": "string",
+            "required": false
+          },
+        "ARRIVAL_TIME": {
+            "type": "string",
+            "required": false
+          },
+        "ARRIVAL_DELAY": {
+            "type": "string",
+            "required": false
+          },
+        "DIVERTED": {
+            "type": "string",
+            "required": false
+          },
+        "CANCELLED": {
+            "type": "string",
+            "required": false
+          },
+        "CANCELLATION_REASON": {
+            "type": "string",
+            "required": false
+          },
+        "AIR_SYSTEM_DELAY": {
+            "type": "string",
+            "required": false
+          },
+        "SECURITY_DELAY": {
+            "type": "string",
+            "required": false
+          },
+        "AIRLINE_DELAY": {
+            "type": "string",
+            "required": false
+          },
+        "LATE_AIRCRAFT_DELAY": {
+            "type": "string",
+            "required": false
+          },
+        "WEATHER_DELAY": {
+            "type": "string",
+            "required": false
+          }
+    }
+    }

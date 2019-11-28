@@ -1,0 +1,34 @@
+{
+    "name": "Airport",
+    "properties": {
+      "IATA_CODE": {
+        "type": "string",
+        "required": false
+      },
+      "AIRPORT": {
+        "type": "string",
+        "required": false
+      },
+      "CITY": {
+        "type": "string",
+        "required": false
+      },
+      "STATE": {
+        "type": "string",
+        "required": false
+      },
+      "COUNTRY": {
+        "type": "string",
+        "required": false
+      },
+      "LATITUDE": {
+        "type": "Number",
+        "required": false
+      },
+      "LONGITUDE": {
+        "type": "Number",
+        "required": false
+      }
+    }
+}
+  
