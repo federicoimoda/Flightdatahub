@@ -1,34 +1,35 @@
 {
-    "name": "Airport",
-    "properties": {
-      "IATA_CODE": {
-        "type": "string",
-        "required": false
-      },
-      "AIRPORT": {
-        "type": "string",
-        "required": false
-      },
-      "CITY": {
-        "type": "string",
-        "required": false
-      },
-      "STATE": {
-        "type": "string",
-        "required": false
-      },
-      "COUNTRY": {
-        "type": "string",
-        "required": false
-      },
-      "LATITUDE": {
-        "type": "string",
-        "required": false
-      },
-      "LONGITUDE": {
-        "type": "string",
-        "required": false
-      }
+  "name": "Airport",
+  "properties": {
+    "IATA_CODE": {
+      "type": "string",
+      "required": false
+    },
+    "AIRPORT": {
+      "type": "string",
+      "required": false
+    },
+    "CITY": {
+      "type": "string",
+      "required": false
+    },
+    "STATE": {
+      "type": "string",
+      "required": false
+    },
+    "COUNTRY": {
+      "type": "string",
+      "required": false
+    },
+    "LATITUDE": {
+      "type": "string",
+      "required": false
+    },
+    "LONGITUDE": {
+      "type": "string",
+      "required": false
     }
+  },
+  "validations": [],
+  "relations": []
 }
-  

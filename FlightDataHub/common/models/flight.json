@@ -128,6 +128,35 @@
     "WEATHER_DELAY": {
       "type": "string",
       "required": false
+    },
+    "DATE": {
+      "type": "date",
+      "required": false
+    },
+    "SCHEDULED_DEPARTURE_DATETIME": {
+      "type": "date",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "airline": {
+      "model": "Airline",
+      "type": "hasOne",
+        "as": "AIRLINE",
+        "foreignKey": "IATA_CODE"
+    },
+    "airport1": {
+      "type": "hasOne",
+      "model": "Airport",
+        "as": "ORIGIN_AIRPORT",
+        "foreignKey": "IATA_CODE"
+    },
+    "airport2": {
+      "type": "hasOne",
+      "model": "Airport",
+        "as": "DESTINATION_AIRPORT",
+        "foreignKey": "IATA_CODE"
     }
   }
 }

@@ -4,5 +4,11 @@
     "mongo_url" : "mongodb://localhost:27017/FlightData",
     "load_data" : false,
     "host" : "localhost",
-    "FAAAA_port" : 8080
+    "FAAAA_port" : 8080,
+    "cant_post" : 200,
+    "num_reg" : 50,
+    "offset" : 1000,
+    "cant_post2" : 100000,
+    "num_reg2" : 1,
+    "offset2" : 50
 }

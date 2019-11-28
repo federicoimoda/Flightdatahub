@@ -1,14 +1,15 @@
 {
-    "name": "Airline",
-    "properties": {
-      "IATA_CODE": {
-        "type": "string",
-        "required": false
-      },
-      "AIRLINE": {
-        "type": "string",
-        "required": false
-      }
+  "name": "Airline",
+  "properties": {
+    "IATA_CODE": {
+      "type": "string",
+      "required": false
+    },
+    "AIRLINE": {
+      "type": "string",
+      "required": false
     }
+  },
+  "validations": [],
+  "relations": []
 }
-  
