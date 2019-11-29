@@ -1,0 +1,8 @@
+{
+    "port" : "8080",
+    "flightdatahub_url" : "localhost:3000/api/",
+    "mongo_url" : "mongodb://localhost:27017/FlightData",
+    "load_data" : false,
+    "host" : "localhost",
+    "FAAAA_port" : 8080
+}

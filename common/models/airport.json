@@ -22,11 +22,11 @@
         "required": false
       },
       "LATITUDE": {
-        "type": "Number",
+        "type": "string",
         "required": false
       },
       "LONGITUDE": {
-        "type": "Number",
+        "type": "string",
         "required": false
       }
     }

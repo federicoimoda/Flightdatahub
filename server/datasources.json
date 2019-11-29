@@ -1,8 +1,11 @@
 {
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
   "MongoDB": {
     "host": "127.0.0.1",
-    "database": "FlightDataHubDB",
+    "database": "FlightData",
     "port": 27017
   }
 }
-

@@ -1,32 +1,14 @@
 var loopback = require('loopback');
 var boot = require('loopback-boot');
+var tosubs = require('./toSubscribe');
+var log = require('./log');
 
-var http = require('http');
 var app = module.exports = loopback();
 
-http.get('http://localhost:8080?uri=localhost&port=3000', (resp) => {
-  let data = '';
-  resp.on('data', (chunk) => {
-    data += chunk;
-  });
-  resp.on('end', () => {
-    console.log('Subscribed to FAAFAirportsAirlines');
-  });
-}).on("error", (err) => {
-  console.log("Error: " + err.message);
-});
+//log.errorLog("Error de Prueba","Simplemente un error de prueba");
+//log.queryToolLog("system","Inicio FlightDataHub","Error de prueba");
 
-http.get('http://localhost:8081?uri=localhost&port=3000&num_reg=50&offset=10', (resp) => {
-  let data = '';
-  resp.on('data', (chunk) => {
-    data += chunk;
-  });
-  resp.on('end', () => {
-    console.log('Subscribed to FAAFAirportsAirlines');
-  });
-}).on("error", (err) => {
-  console.log("Error: " + err.message);
-});
+tosubs.toSubscribe();
 
 app.start = function() {
   // start the web server
